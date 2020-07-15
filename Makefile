@@ -4,14 +4,33 @@ CC = gcc
 #Flags
 CFLAGS = -Wall
 
+#Path
+PERC = "PATH"
+
 #clean phony to clean stuffs
-.PHONY: clean
+.PHONY: uninstall clean test exe
 
-main: ./blasphemyEliminator
+all: ./curseEraser install
 
-./blasphemyEliminator: ./blasphemyEliminator.c
+./curseEraser: ./curseEraser.c
 	$(CC) $@.c $(CFLAGS) -o $@
+
+install:
+	@echo 'Installing curseEraser... \n';
+	chmod +x setup.sh;
+	./setup.sh;
+	$(CC) $(CFLAGS) curseEraser.c -o curseEraser
+	>> ~/.bashrc echo "export PATH=$$$(PERC):$(CURDIR)";
+	@echo '\nCOMPLETED\nCurseEraser is installed. Write curseEraser -h or curseEraser --help to learn how to use it!';
 
 clean: 
 	echo Clean useless stuff
-	rm -f ./blasphemyEliminator
+	rm -f ./curseEraser
+
+uninstall:
+	@echo 'Uninstalling curseEraser...\n'
+	rm -f ./curseEraser ./curseEraser.c;
+	rm -r ./error
+	rm -r ./src
+	sed '/curseEraser/d' -i ~/.bashrc;
+	@echo '\nCOMPLETED\nUninstall complete. You can now delete this folder.';
