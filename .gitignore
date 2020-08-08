@@ -4,3 +4,4 @@ test.c
 main.c
 main
 *.o
+curseEraser
