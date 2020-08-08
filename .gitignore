@@ -3,3 +3,4 @@ test.txt
 test.c
 main.c
 main
+*.o
