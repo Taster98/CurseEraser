@@ -2,7 +2,7 @@
 #creation of folders
 mkdir error;
 mkdir src;
-#creation of termCalc.c
+#creation of curseEraser.c
 echo \
 "\
 /**

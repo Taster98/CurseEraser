@@ -4,12 +4,13 @@
 This simple C program allows all angry programmers who use various comments/printf or debugging stuff with curse words because they are too stressed while coding, to delete those. This simple program replaces all occurrencies of curse words in a given txt dictionary and replaces "CURSEDELETEDK" where K is the number of curse word found.
 
 ## Usage
-In order to use it you have to clone this repo:
+In order to use it you have to download this tarball file:
 ~~~
-git clone https://github.com/Taster98/CurseEraser.git
+wget https://raw.githubusercontent.com/Taster98/CurseEraser/master/CurseEraser.tar.gz
 ~~~
 
-After that, you will have to install it to be able to use wherever you are:
+Then you have to extract the folder, open the extracted folder into terminal and type:
+
 ```
 make install
 ```
