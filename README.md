@@ -6,7 +6,7 @@ This simple C program allows all angry programmers who use various comments/prin
 ## Usage
 In order to use it you have to download this tarball file:
 ~~~
-wget https://raw.githubusercontent.com/Taster98/CurseEraser/master/curseeraser-0.5.tar.gz
+wget http://luiggi.it/Packages/curseeraser-0.5.tar.gz
 ~~~
 
 Then you have to extract the folder, open the extracted folder into terminal and type:
