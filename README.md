@@ -9,7 +9,7 @@ In order to use it you have to download this tarball file:
 wget http://luiggi.it/Packages/curseeraser-0.5.tar.gz
 ~~~
 
-Then you have to extract the folder, open the extracted folder into terminal and type:
+Then you have to extract the folder, open the extracted folder into terminal and type: (Warning: You may run "make" and "make install" in sudo mode)
 
 ```
 ./configure
