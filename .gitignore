@@ -5,3 +5,5 @@ main.c
 main
 *.o
 curseEraser
+notneeded/*
+notneeded
