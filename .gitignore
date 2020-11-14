@@ -7,3 +7,13 @@ main
 curseEraser
 notneeded/*
 notneeded
+.deps
+.deps/*
+Makefile.am
+aclocal.m4
+compile
+configure
+configure.ac
+depcomp
+install-sh
+missing
